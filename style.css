@@ -11,15 +11,6 @@ Text Domain:  bricks
 
 /*Global CSS Variables*/
 
-/* import vartatylo rounded font */
-
-    @font-face {
-    font-family: 'Versatylo Rounded Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Versatylo Rounded Regular'), url('river-dental.moritzreitz.com/wp-content/uploads/fonts/Versatylo Rounded/VersatyloRoundedPersonalUseOnly.woff') format('woff');
-    }
-
 :root {
 
 /*BRAND COLOURS*/
@@ -54,7 +45,7 @@ Text Domain:  bricks
   --fs-h-600: calc( 1.6 * (clamp(1.944rem, 1.7631rem + 0.9044vw, 2.4414rem)));
   --fs-h-extra: calc( 1.6 * (clamp(1.944rem, 1.7631rem + 0.9044vw, 3.4414rem)));
   /*font styles*/
-  --ff-display: "Versatylo Rounded Regular","Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --ff-display: "Versatylo Rounded","Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   --ff-text:  Onest, "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
  /*Text overlay*/
  --txt-shadow--light: 0px 0px 10px var(--col-txt--light);
