@@ -3,7 +3,7 @@ Theme Name:   River Dental Theme
 Theme URI:    https://bricksbuilder.io/
 Description:  Use this child theme to extend Bricks.
 Author:       Moritz Reitz
-Author URI:   https://bricksbuilder.io/
+Author URI:   https://moritzreitz.com
 Template:     bricks
 Version:      1.1
 Text Domain:  bricks
@@ -37,14 +37,6 @@ Text Domain:  bricks
 /*SIZE VARIABLES*/
 
   /*Font Sizes*/
-  /* --fs-b-050: clamp(.8rem, 0.75rem + 0.3035vw, 1rem);
-  --fs-b-100: clamp(1rem, 0.8837rem + 0.3035vw, 1.1rem);
-  --fs-h-100: clamp(1.0625rem, 0.9405rem + 0.6098vw, 1.375rem);
-  --fs-h-200: clamp(1.3rem, 0.991rem + 1.0213vw, 1.7188rem);
-  --fs-h-300: clamp(1.4rem, 1.0311rem + 1.5682vw, 2.1484rem);
-  --fs-h-400: clamp(1.7rem, 1.0552rem + 2.2883vw, 2.6855rem);
-  --fs-h-500: clamp(1.9rem, 1.0561rem + 3.2293vw, 3.3569rem);
-  --fs-h-600: clamp(2.1rem, 1.0243rem + 4.4517vw, 4.1962rem); */
   --fs-b-050: calc( 1.6 * (clamp(0.8813rem, 0.8744rem + 0.0341vw, .9rem)));
   --fs-b-100: calc( 1.6 * (clamp(0.9375rem, 0.9148rem + 0.1136vw, 1rem)));
   --fs-h-300: calc( 1.6 * (clamp(1.125rem, 1.0795rem + 0.2273vw, 1.25rem)));
@@ -53,8 +45,8 @@ Text Domain:  bricks
   --fs-h-600: calc( 1.6 * (clamp(1.944rem, 1.7631rem + 0.9044vw, 2.4414rem)));
   --fs-h-extra: calc( 1.6 * (clamp(1.944rem, 1.7631rem + 0.9044vw, 3.4414rem)));
   /*font styles*/
-  --ff-display: "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-  --ff-text:  Montserrat, "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --ff-display: "Versatylo Rounded","Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --ff-text:  Onest, "Segoe UI", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
  /*Text overlay*/
  --txt-shadow--light: 0px 0px 10px var(--col-txt--light);
  --txt-shadow--dark: 0px 0px 10px var(--col-txt--dark);
