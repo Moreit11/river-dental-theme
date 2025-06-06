@@ -13,10 +13,12 @@ Text Domain:  bricks
 
 :root {
 
-/*BRAND COLOURS*/
---col-turqouise:#0096AA; /*text & icons*/
---col-turquoise:#00CDCD; /*Button background & icons*/
---col-light-turquoise: 0096AA; /*Background*/
+/*Turqouise*/
+--col-turqouise-900:#0096AA; /*text & icons*/
+--col-turquoise-500:#00CDCD; /*Button background & icons*/
+--col-turquoise-100:#DCEEEE; /*Background*/
+
+
   /* dark shades */
 --col-dark: #000;
 --col-dark: #000;
@@ -24,7 +26,7 @@ Text Domain:  bricks
 --col-dark: #000;
 /* light shades */
 --col-light: #fff;
---col-light: #fff;
+--col-light-100: #FBF8F6;
 --col-light: #fff;
 --col-light: #fff;
 --col-light: #fff;
@@ -354,6 +356,7 @@ flex: 1 1 60%;
 .gap-3xl{ 
   gap: var(--space-3xl);
 }
+
 /*Slider arrows*/
 .slider-arrw--btm-right { /*target slider navigation arrows*/
   position: relative;
@@ -388,7 +391,7 @@ flex: 1 1 60%;
 
 /* Link styles */
 *:not(.dark) p a {
-color: darkblue;
+color: var(--col-turquoise);
   text-decoration: underline;
 }
 /*clickable parents*/
