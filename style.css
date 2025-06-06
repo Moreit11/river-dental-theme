@@ -610,6 +610,7 @@ button, a {
   .btn, .brxe-button, .bricks-button, .ff-btn, .button{
     text-transform: capitalize;
     display:flex;
+    align-items: center;
     border:none;
     line-height: 1;
     padding: var(--btn-padding);
