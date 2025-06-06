@@ -14,7 +14,7 @@ Text Domain:  bricks
 :root {
 
 /*BRAND COLOURS*/
---col-brand--primary:hsl(217, 50%, 13%); /*#061c40*/
+--col-turcoise:hsl(217, 50%, 13%); /*#061c40*/
 --col-brand--secondary: hsl(197, 88%, 69%); /*#6DCFF6*/
 
 --col-brand--white: hsl(40, 10%, 94%);
