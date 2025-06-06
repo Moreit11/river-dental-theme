@@ -391,7 +391,7 @@ flex: 1 1 60%;
 
 /* Link styles */
 *:not(.dark) p a {
-color: var(--col-turquoise);
+color: var(--col-turquoise-500);
   text-decoration: underline;
 }
 /*clickable parents*/
