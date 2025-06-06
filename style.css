@@ -151,7 +151,7 @@ Text Domain:  bricks
   display: flex;
 }
 .flex-row{
-
+  flex-direction: row;
 }
 .flex-wrap{
   flex-wrap: wrap;
