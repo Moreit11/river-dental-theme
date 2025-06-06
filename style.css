@@ -354,8 +354,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--fs-h-100);
     font-weight: 700;
   }
-/* Menu styles */
-/*UTILITY CLASSES END*/
+/*THEME STYLES END*/
+
+/* Menu Style */
+/* link colour menu */
+.menu--main a{
+  color:var(--col-light);
 /* CTA styles */
 /* CTA styles */
 .cta{
