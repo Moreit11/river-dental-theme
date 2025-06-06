@@ -75,7 +75,7 @@ Text Domain:  bricks
 
   /*Button variables*/
   --btn-border-: 2px solid var(--col-brand--black);
-  --btn-radius: .25rem;
+  --btn-radius: 1rem;
   --btn-padding: .77em 1.5em;
   --btn-padding--s: .5em 1em;
 
@@ -642,17 +642,12 @@ button, a {
   }
 
   .btn, .brxe-button, .bricks-button, .ff-btn, .button{
-    text-transform: uppercase;
-    position: relative;
-    font-weight: 700;
-    border: 3px solid var(--col-brand--primary);
-    background: var(--col-bg--light);
-    color: var(--col-brand--primary);
+    text-transform: capitalize;
+    border:none;
     line-height: 1;
     padding: var(--btn-padding);
     transition: .4s ease-in-out ;
     border-radius: var(--btn-radius);
-    text-shadow: none;
     letter-spacing: .02em;
   }
   .btn:hover{
