@@ -621,6 +621,11 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 /*UTILITY CLASSES END*/
+/* CTA styles */
+  .cta{
+    display:flex;
+    align-items: center;
+  }
 /*Button styles*/
 button, a { 
   cursor: pointer;
@@ -635,10 +640,7 @@ button, a {
   .btn-wrap > .btn {
     flex-shrink: 0;
   }
-  .cta{
-    display:flex;
-    align-items: cente;
-  }
+
   .btn, .brxe-button, .bricks-button, .ff-btn, .button{
     text-transform: uppercase;
     position: relative;
@@ -654,5 +656,5 @@ button, a {
     letter-spacing: .02em;
   }
   .btn:hover{
-    transform: scale(1.03);
+
   }
