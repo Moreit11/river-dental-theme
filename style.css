@@ -100,7 +100,7 @@ Text Domain:  bricks
   }
 /* colour utilities */
 .col-light {
-  --col-light: #fff;
+  color: #fff;
 }
 
 /*UTILITY CLASSES START*/
