@@ -510,7 +510,9 @@ color: var(--col-turquoise-500);
 }
 
 /*THEME STYLES*/
-
+html {
+  scroll-behavior: smooth;
+}
 body{
   color: var(--col-dark-900);
   background: var(--col-light-100);
@@ -524,22 +526,20 @@ header{
 }
 header .brxe-container{
   padding:var(--space-s) var(--section-pad--hor);
-
+  justify-content: space-around;
+  align-items: center;
 }
 /* footer style */
 footer{
 
 }
-.f
 /*BRIX STYLES - overwriting brix default styles*/
   .brxe-container, .container{ /*default section container class Brix Builder*/
     padding: var(--section-pad--vert) var(--section-pad--hor);
     width: 1200px;
   }
   /*UTILITY CLASSES START*/
-html {
-  scroll-behavior: smooth;
-}
+
 .fs-50{
   font-size: var(--fs-b-050);
 }
@@ -579,7 +579,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--fs-h-100);
     font-weight: 700;
   }
-
+/* Menu styles */
 /*UTILITY CLASSES END*/
 /* CTA styles */
 /* CTA styles */
