@@ -515,8 +515,8 @@ color: var(--col-turquoise-500);
 
 /*THEME STYLES*/
 body{
-  color: var(--col-brand--black);
-  background: var(--col-brand--white);
+  color: var(--col-dark-900);
+  background: var(--col-light-100);
   line-height: 1.6;
   font-size: var(--fs-b-100);
   font-family: var(--ff-text);
