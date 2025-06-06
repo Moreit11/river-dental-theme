@@ -611,6 +611,7 @@ button, a {
     text-transform: capitalize;
     display:flex;
     align-items: center;
+    gap: var(--space-xs);
     border:none;
     line-height: 1;
     padding: var(--btn-padding);
