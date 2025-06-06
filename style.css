@@ -150,6 +150,9 @@ Text Domain:  bricks
 .flex{
   display: flex;
 }
+.flex-row{
+
+}
 .flex-wrap{
   flex-wrap: wrap;
 }
