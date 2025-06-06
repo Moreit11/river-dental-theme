@@ -100,82 +100,7 @@ Text Domain:  bricks
 }
 
 
-/* Tailwind utilities */
-/* Tailwind Padding */
-.p-3xs{
-  padding: var(--space-3xs);
-}
-.p-2xs{
-  padding: var(--space-2xs);
-}
-.p-xs{
-  padding: var(--space-xs);
-}
-.p-s{
-  padding: var(--space-s);
-}
-.p-m{
-  padding: var(--space-m);
-}
-.p-l{
-  padding: var(--space-l);
-}
-.p-xl{
-  padding: var(--space-xl);
-}
-.p-2xl{
-  padding: var(--space-2xl);
-}
-.p-3xl{
-  padding: var(--space-3xl);
-}
-/* padding top */
-.pt-m{
-  padding-top: var(--space-m);
-}
-.pt-l{
-  padding-top: var(--space-l);
-}
-.pt-xl{
-  padding-top: var(--space-xl);
-}
-.text-center{
-  text-align: center;
-}
-/*Tailwind Flex*/
-.flex-col{
-  display: flex;
-  flex-direction: column;
-}
-.flex{
-  display: flex;
-}
-.flex-row{
-  flex-direction: row;
-}
-.flex-wrap{
-  flex-wrap: wrap;
-}
-.justify-end{
-  justify-content: end;
-}
-.justify-start{
-  justify-content: start;
-}
-.justify-center{
-  justify-content: center;
-}
-.align-start{
-  align-items: start;
-}
-.align-center{
-  align-items: center;
-}
-.align-end{
-  align-items: end;
-}
 
-/* Tailwind End */
 /* apect ratios */
 .aspect-3\/2{ 
   aspect-ratio: 3/2;
@@ -622,3 +547,90 @@ button, a {
   .btn:hover{
 
   }
+
+
+
+
+
+
+
+
+
+
+
+  /* Tailwind utilities */
+/* Tailwind Padding */
+.p-3xs{
+  padding: var(--space-3xs);
+}
+.p-2xs{
+  padding: var(--space-2xs);
+}
+.p-xs{
+  padding: var(--space-xs);
+}
+.p-s{
+  padding: var(--space-s);
+}
+.p-m{
+  padding: var(--space-m);
+}
+.p-l{
+  padding: var(--space-l);
+}
+.p-xl{
+  padding: var(--space-xl);
+}
+.p-2xl{
+  padding: var(--space-2xl);
+}
+.p-3xl{
+  padding: var(--space-3xl);
+}
+/* padding top */
+.pt-m{
+  padding-top: var(--space-m);
+}
+.pt-l{
+  padding-top: var(--space-l);
+}
+.pt-xl{
+  padding-top: var(--space-xl);
+}
+.text-center{
+  text-align: center;
+}
+/*Tailwind Flex*/
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.flex{
+  display: flex;
+}
+.flex-row{
+  flex-direction: row;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.justify-end{
+  justify-content: end;
+}
+.justify-start{
+  justify-content: start;
+}
+.justify-center{
+  justify-content: center;
+}
+.align-start{
+  align-items: start;
+}
+.align-center{
+  align-items: center;
+}
+.align-end{
+  align-items: end;
+}
+
+/* Tailwind End */
