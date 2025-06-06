@@ -14,11 +14,20 @@ Text Domain:  bricks
 :root {
 
 /*BRAND COLOURS*/
---col-turcoise:hsl(217, 50%, 13%); /*#061c40*/
---col-brand--secondary: hsl(197, 88%, 69%); /*#6DCFF6*/
-
---col-brand--white: hsl(40, 10%, 94%);
---col-brand--black: hsl(30, 10%, 12%);
+--col-turqouise:#0096AA; /*text & icons*/
+--col-turquoise:#00CDCD; /*Button background & icons*/
+--col-light-turquoise: 0096AA; /*Background*/
+  /* dark shades */
+--col-dark: #000;
+--col-dark: #000;
+--col-dark: #000;
+--col-dark: #000;
+/* light shades */
+--col-light: #fff;
+--col-light: #fff;
+--col-light: #fff;
+--col-light: #fff;
+--col-light: #fff;
 
 --col-overlay--light: hsl(40, 10%, 94%, 70%);
 --col-overlay--dark: hsl(30, 10%, 12%, 40%);
@@ -87,6 +96,10 @@ Text Domain:  bricks
     padding: var(--section-pad--vert) var(--section-pad--hor);
     width: 1200px;
   }
+/* colour utilities */
+.col-light {
+  --col-light: #fff;
+}
 
 /*UTILITY CLASSES START*/
 html {
