@@ -622,9 +622,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*UTILITY CLASSES END*/
 /* CTA styles */
-  .cta{
-    display:flex;
-    align-items: center;
+.cta{
+  display:flex;
+  align-items: center;
+}
+  .cta__icn{
+    height:1.8rem;
+    width: 1.8rem;
   }
 /*Button styles*/
 button, a { 
