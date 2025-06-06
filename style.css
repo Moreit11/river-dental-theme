@@ -527,6 +527,7 @@ header .brxe-container{
 footer{
 
 }
+.f
 /*BRIX STYLES - overwriting brix default styles*/
   .brxe-container, .container{ /*default section container class Brix Builder*/
     padding: var(--section-pad--vert) var(--section-pad--hor);
