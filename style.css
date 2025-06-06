@@ -21,8 +21,8 @@ Text Domain:  bricks
 
   /* dark shades */
 --col-dark: #000;
---col-dark: #000;
---col-dark: #000;
+--col-dark-900: #525252;
+--col-dark-800: #6E6E6E;
 --col-dark: #000;
 /* light shades */
 --col-light: #fff;
