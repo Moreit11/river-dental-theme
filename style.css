@@ -23,7 +23,7 @@ Text Domain:  bricks
 --col-dark: #000;
 --col-dark-900: #525252;
 --col-dark-800: #6E6E6E;
---col-dark: #000;
+--col-dark-700: hsla(0, 0%, 57%, 1);
 /* light shades */
 --col-light: #fff;
 --col-light-100: #FBF8F6;
@@ -93,20 +93,13 @@ Text Domain:  bricks
   --grid-3--gap: var(--space-m);
 }
 
-/*BRIX STYLES - overwriting brix default styles*/
-  .brxe-container, .container{ /*default section container class Brix Builder*/
-    padding: var(--section-pad--vert) var(--section-pad--hor);
-    width: 1200px;
-  }
+
 /* colour utilities */
 .col-light {
   color: #fff;
 }
 
-/*UTILITY CLASSES START*/
-html {
-  scroll-behavior: smooth;
-}
+
 /* Tailwind utilities */
 /* Tailwind Padding */
 .p-3xs{
@@ -514,27 +507,48 @@ color: var(--col-turquoise-500);
 }
 
 /*THEME STYLES*/
+
 body{
   color: var(--col-dark-900);
   background: var(--col-light-100);
   line-height: 1.6;
   font-size: var(--fs-b-100);
   font-family: var(--ff-text);
+}
+/* header Style */
+header{
+  background: var(--col-dark-700);
+}
+header .brxe-container{
+  padding:var(--space-s) var(--section-pad--hor);
 
 }
-h-050{
+/* footer style */
+footer{
+
+}
+/*BRIX STYLES - overwriting brix default styles*/
+  .brxe-container, .container{ /*default section container class Brix Builder*/
+    padding: var(--section-pad--vert) var(--section-pad--hor);
+    width: 1200px;
+  }
+  /*UTILITY CLASSES START*/
+html {
+  scroll-behavior: smooth;
+}
+.fs-50{
   font-size: var(--fs-b-050);
 }
 h1, h2, h3, h4, h5, h6 { 
   font-family: var(--ff-display) ;
 }
   /*Heading Styles*/
-  h1, .h-600 {
+  h1, .fs-600 {
     font-size: var(--fs-h-600);
     font-weight: 700;
   }
   
-  h2, .h-500 {
+  h2, .fs-500 {
     font-size: var(--fs-h-500);
     font-weight: 700;
     line-height: 1.2em;
@@ -542,93 +556,37 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: capitalize;
   }
   
-  h3, .h-400 {
+  h3, .fs-400 {
     font-size: var(--fs-h-400);
     font-weight: 700;
   }
   
-  h4, .h-300 {
+  h4, .fs-300 {
     font-size: var(--fs-h-300);
     font-weight: 700;
   }
   
-  h5, .h-200 {
+  h5, .fs-200 {
     font-size: var(--fs-h-200);
     font-weight: 700;
   }
   
-  h6, .h-100 {
+  h6, .fs-100 {
     font-size: var(--fs-h-100);
     font-weight: 700;
   }
-  .h-double {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: var(--space-m);
-    width: 100%;
-    line-height: 1;
-    text-align: center;
-    margin: 0 0 var(--space-m) 0;
-  }
-    .h-double__main {
-      font-weight: 700;
-      margin-bottom: 0.2em;
-    }
-    .h-double__sub {
-      font-size: 0.5em;
-      letter-spacing: 0.01em;
-      text-transform: uppercase;
-      font-weight: 600;
-      line-height: 1.2;
-    }
-    .h-double >*:first-child {
-        position: relative;
-    }
-    .h-double > *:first-child:is(.h-double__main)::before { 
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 50%;
-      width: 100px;
-      height: 3px;
-      background: var(--col-brand--secondary);
-      transform: translate(-50%, calc( (var(--space-m)/2) + .2em) );
-    }
-    /* If the sub title is first */
-    .h-double:has(:first-child.h-double__sub){
-      gap: var(--space-2xs);
-      margin: 0 0 var(--space-m);
-    }
 
-    @media only screen and (min-width:1000px){ /*desktop styles h-double*/
-      .h-double--left {
-        align-items: start;
-        text-align: left;
-      }
-        .h-double--left > *:first-child:is(.h-double__main)::before{
-          left:0;
-          transform: translate(0, calc( (var(--space-m)/2) + .2em) );
-        }
-    }
-.capitalize{
-  text-transform: capitalize;
-}
-.center{ 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 /*UTILITY CLASSES END*/
+/* CTA styles */
 /* CTA styles */
 .cta{
   display:flex;
   align-items: center;
+  gap: var(--space-2xs);
+  color: var(--col-light)
 }
   .cta__icn{
-    height:1.8rem;
-    width: 1.8rem;
+    font-size: 1.5rem;
   }
 /*Button styles*/
 button, a { 
