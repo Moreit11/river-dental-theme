@@ -636,7 +636,7 @@ button, a {
     flex-shrink: 0;
   }
   
-  .btn, .brxe-button, .bricks-button, .ff-btn {
+  .btn, .brxe-button, .bricks-button, .ff-btn, .button{
     text-transform: uppercase;
     position: relative;
     font-weight: 700;
