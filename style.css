@@ -147,7 +147,7 @@ Text Domain:  bricks
   display: flex;
   flex-direction: column;
 }
-.flex-row{
+.flex{
   display: flex;
 }
 .flex-wrap{
