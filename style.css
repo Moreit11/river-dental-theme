@@ -451,7 +451,7 @@ header{
 }
 header .brxe-container{
   padding:var(--space-s) var(--section-pad--hor);
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 /* footer style */
